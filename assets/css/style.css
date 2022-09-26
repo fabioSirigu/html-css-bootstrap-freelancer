@@ -4,7 +4,8 @@
       --bs_lighter: #3A546D;
 }
 
-.debug header {
+.debug header,
+.debug .credits {
       background-color: var(--bs_darker);
 }
 
@@ -31,4 +32,12 @@
 
 .debug .about [class^="col"] {
       background-color: purple;
+}
+
+.debug .credits [class^="col"] {
+      background-color: lightgreen;
+}
+
+.debug .copyright [class^="col"] {
+      background-color: lightcoral;
 }
