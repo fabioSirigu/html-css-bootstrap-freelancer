@@ -4,7 +4,7 @@
       --bs_lighter: #3A546D;
 }
 
-.debug header nav.container-fluid {
+.debug header {
       background-color: var(--bs_darker);
 }
 
