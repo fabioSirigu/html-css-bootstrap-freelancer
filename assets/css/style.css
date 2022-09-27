@@ -4,6 +4,8 @@
       --bs_lighter: #3A546D;
 }
 
+
+/* #region Debug */
 .debug header,
 .debug .credits {
       background-color: var(--bs_darker);
@@ -41,3 +43,23 @@
 .debug .copyright [class^="col"] {
       background-color: lightcoral;
 }
+
+/* #endregion Debug */
+
+
+/* #region Utilities */
+
+.bs_lighter {
+      background-color: var(--bs_lighter);
+}
+
+/* #endregion Utilities */
+/* #region header */
+
+header .container a {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: white;
+}
+
+/* #endregion header */
