@@ -61,6 +61,9 @@
       text-transform: uppercase;
 }
 
+.text_vivid {
+      color: var(--bs_vivid);
+}
 .text_darker {
       color: var(--bs_darker);
 }
@@ -74,6 +77,16 @@
 .text_middle {
       vertical-align: middle;
 }
+
+.circle_icon {
+      display: inline-block;
+      border: 1px solid;
+      padding: 5px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+}
+
 /* #endregion Utilities */
 
 /* #region header */
