@@ -60,6 +60,10 @@
 .text_up {
       text-transform: uppercase;
 }
+
+.text_darker {
+      color: var(--bs_darker);
+}
 /* #endregion Utilities */
 
 /* #region header */
