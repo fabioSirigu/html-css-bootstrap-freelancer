@@ -53,7 +53,15 @@
       background-color: var(--bs_lighter);
 }
 
+.bs_vivid {
+      background-color: var(--bs_vivid);
+}
+
+.text_up {
+      text-transform: uppercase;
+}
 /* #endregion Utilities */
+
 /* #region header */
 
 header .container a {
@@ -63,3 +71,11 @@ header .container a {
 }
 
 /* #endregion header */
+
+/* #region main */
+
+.jumbotron img {
+      width: 250px;
+}
+
+/* #endregion main */
