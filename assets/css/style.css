@@ -64,6 +64,16 @@
 .text_darker {
       color: var(--bs_darker);
 }
+
+.line{
+      width: 15%;
+      border: 1px solid;
+      display: inline-block;
+}
+
+.text_middle {
+      vertical-align: middle;
+}
 /* #endregion Utilities */
 
 /* #region header */
@@ -81,5 +91,6 @@ header .container a {
 .jumbotron img {
       width: 250px;
 }
+
 
 /* #endregion main */
