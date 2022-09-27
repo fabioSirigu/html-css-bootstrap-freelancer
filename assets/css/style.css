@@ -53,6 +53,10 @@
       background-color: var(--bs_lighter);
 }
 
+.bs_darker {
+      background-color: var(--bs_darker);
+}
+
 .bs_vivid {
       background-color: var(--bs_vivid);
 }
